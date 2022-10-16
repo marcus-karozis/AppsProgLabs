@@ -1,0 +1,23 @@
+Button
+{
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-background-color: #212121;
+    -fx-text-fill: #ffc107;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+Button:hover {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-background-color: #1500ff;
+    -fx-text-fill: #ffc107;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+.heading
+{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-fill: #1500ff;
+    -fx-stroke: #212121;
+}
